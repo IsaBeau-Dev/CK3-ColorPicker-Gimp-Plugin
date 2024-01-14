@@ -21,7 +21,7 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
 ## Usage
 
 1. **Access the Plugin**:
-   - Open your CK3 definition.csv file (which contains province-color mappings).
+   - Get the path to your modded CK3 definition.csv file. For example: `C:\\Users\\isabeau\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv`
    - Run the CK3 ColorPicker Gimp Plugin. (You can find it in the menu bar (bar at the top) under `CK3`)
    - A window will appear, allowing you to search for provinces by name (You will see a list with all entries of definition.csv and can scroll trough it.).
 
