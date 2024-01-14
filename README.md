@@ -32,6 +32,7 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
    - Run the CK3 ColorPicker Gimp Plugin. (You can find it in the menu bar (bar at the top) under `CK3`)
    - ![image](https://github.com/IsaBeau-Dev/CK3-ColorPicker-Gimp-Plugin/assets/90000605/771a576d-1c16-4b02-8b23-74eeaa71c27d)
    - A window will appear, allowing you to search for provinces by name (You will see a list with all entries of definition.csv and can scroll trough it.).
+   - ![image](https://github.com/IsaBeau-Dev/CK3-ColorPicker-Gimp-Plugin/assets/90000605/69649c4a-b782-4637-9220-4cd975485713)
    - For now just ignore the `terminal/console` that pops up and **DONT CLOSE IT** please.
 
 3. **Select a Province**:
