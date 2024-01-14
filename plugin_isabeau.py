@@ -1,9 +1,10 @@
 from gimpfu import *
 import gtk
 
-
+path = "C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv"
 def isabeau_ck_3_plugin():
-    with open("C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv", "r") as f:
+    #with open("C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv", "r") as f:
+    with open(path, "r") as f:
         content = f.read().splitlines()
         f.close()
     names = []
@@ -51,7 +52,8 @@ def isabeau_ck_3_plugin():
 
 
 def on_selection_changed(selection):
-    with open("C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv", "r") as f:
+    #with open("C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv", "r") as f:
+    with open(path, "r") as f:
         content = f.read().splitlines()
         f.close()
     names = []
