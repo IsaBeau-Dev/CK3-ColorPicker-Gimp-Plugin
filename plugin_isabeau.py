@@ -2,7 +2,7 @@
 from gimpfu import *
 import gtk
 
-#def python_fu_test(image, drawable):
+
 def isabeau_ck_3_plugin():
     with open("C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv", "r") as f:
         content = f.read().splitlines()
@@ -89,9 +89,51 @@ def on_selection_changed(selection):
 #     )
 
 #####new
+# register(
+#     #name
+#     "CK3 ColorPicker Plugin",
+#
+#     #blurb
+#     #"Saying Hello World",
+#     "This plugin looks up the colors in your definition.csv and opens a window where you can select a province based on name. The Plugin then pastes the color defined for that province in your color tool, so you can draw the according province directly in your provinces.png.",
+#
+#
+#     #help
+#     #"Saying Hello to the World",
+#     "This plugin looks up the colors in your definition.csv and opens a window where you can select a province based on name. The Plugin then pastes the color defined for that province in your color tool, so you can draw the according province directly in your provinces.png.",
+#
+#
+#     #author
+#     "IsaBeau-Dev <https://github.com/IsaBeau-Dev>",
+#
+#     #copyright
+#     "IsaBeau-Dev <https://github.com/IsaBeau-Dev>",
+#
+#     #date
+#     "2024",
+#
+#     #menupath
+#     "Hello World",
+#
+#     #imagetypes (use * for all, leave blank for none)
+#     "",
+#
+#     #params
+#     [],
+#
+#     #results
+#     [],
+#
+#     #function (to call)
+#     isabeau_ck_3_plugin,
+#
+#     #this can be included this way or the menu value can be directly prepended to the menupath
+#     menu = "<Toolbox>/Hello/")
+#
+
 register(
     #name
-    "helloWorldPlugin",
+    "Test",
 
     #blurb
     #"Saying Hello World",
@@ -113,7 +155,7 @@ register(
     "2015",
 
     #menupath
-    "Hello World",
+    "CK3 ColorPicker Plugin",
 
     #imagetypes (use * for all, leave blank for none)
     "",
@@ -128,7 +170,7 @@ register(
     isabeau_ck_3_plugin,
 
     #this can be included this way or the menu value can be directly prepended to the menupath
-    menu = "<Toolbox>/Hello/")
+    menu = "<Toolbox>/CK3/")
 
 main()
 
