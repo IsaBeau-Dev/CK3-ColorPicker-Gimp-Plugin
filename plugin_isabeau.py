@@ -146,10 +146,10 @@ register(
 
 
     #author
-    "William Crandell <william@crandell.ws>",
+    "IsaBeau-Dev <https://github.com/IsaBeau-Dev>",
 
     #copyright
-    "William Crandell <william@crandell.ws>",
+    "IsaBeau-Dev <https://github.com/IsaBeau-Dev>",
 
     #date
     "2015",
