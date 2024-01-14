@@ -15,11 +15,9 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
    - Add the folder containing the extracted plugin files to the list of plugin folders.
    - Restart GIMP.
 
-3. **Edit the .py File**:
+3. **Place the Plugin File**:
    - Locate the `.py` file within the plugin folder.
-   - Open it in a text editor.
-   - Look for the line that specifies the path to your `definition.csv` file.
-   - Update the path to match the location of your `definition.csv` on your system. For example:
+   - Move or copy this `.py` file to the appropriate GIMP plugins directory:
      - On Linux: `~/.config/GIMP/2.10/plug-ins/`
      - On Windows: `C:\Users\USERNAME\AppData\Roaming\GIMP\2.10\plug-ins\`
    - You can also check the location of the plugins directory within GIMP by going to `Edit > Preferences > Folders > Plug-Ins`.
