@@ -15,7 +15,7 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
      - On Linux: `~/.config/GIMP/2.10/plug-ins/`
      - On Windows: `C:\Users\USERNAME\AppData\Roaming\GIMP\2.10\plug-ins\`
    - You can also check the location of the plugins directory within GIMP by going to `Edit > Preferences > Folders > Plug-Ins`.
-   - ![image]([https://github.com/IsaBeau-Dev/CK3-ColorPicker-Gimp-Plugin/assets/90000605/2ac900e9-9b0c-4124-b984-f96331aff1c0](https://github.com/IsaBeau-Dev/CK3-ColorPicker-Gimp-Plugin/assets/90000605/5019b0b7-0e92-4f79-b850-83ad27ecee27))
+   - ![image]((https://github.com/IsaBeau-Dev/CK3-ColorPicker-Gimp-Plugin/assets/90000605/5019b0b7-0e92-4f79-b850-83ad27ecee27))
 
 ## Usage
 
