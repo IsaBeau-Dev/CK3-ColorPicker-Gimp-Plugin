@@ -2,7 +2,6 @@
 from gimpfu import *
 import gtk
 
-
 def python_fu_test(image, drawable):
     with open("C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv", "r") as f:
         content = f.read().splitlines()
@@ -32,8 +31,6 @@ def python_fu_test(image, drawable):
     view = gtk.TreeView(listbox)
     renderer = gtk.CellRendererText()
     column = gtk.TreeViewColumn("Items", renderer, text=0)
-    # Set a cell data function for the column
-    #column.set_cell_data_func(renderer, colorize)
 
     view.append_column(column)
     view.get_selection().connect("changed", on_selection_changed)
@@ -70,22 +67,6 @@ def on_selection_changed(selection):
             index = names.index(color)
             gimp.set_foreground(gimpcolor.RGB(int(used_rgb_values[index][0]), int(used_rgb_values[index][1]), int(used_rgb_values[index][2])))
 
-
-# # Cell data function to colorize the items
-# def colorize(column, cell, model, iter):
-#     item = model.get_value(iter, 0)
-#     for item in model:
-#         #cell.set_property('background', Gtk.color_parse('red'))
-#         cell.set_property('background', gimpcolor.RGB(int(255), int(100), int(0)))
-#     # if item == "b_test_107":
-#     #     #cell.set_property('background', 'blue')
-#     #     cell.set_property('background', gimpcolor.RGB(255, 0, 0))
-#     # elif item == "Green":
-#     #     cell.set_property('background', 'green')
-#     # elif item == "Red":
-#     #     cell.set_property('background', 'red')
-#     # else:
-#     #     cell.set_property('background', 'white')
 register(
     "python_fu_test",
     "Test Plugin",
