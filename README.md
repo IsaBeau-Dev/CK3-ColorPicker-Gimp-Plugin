@@ -24,18 +24,19 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
    - Open it in a text editor.
    - Look for the line that specifies the path to your `definition.csv` file.
    - Update the path to match the location of your `definition.csv` on your system.
-
-3. **Access the Plugin**:
    - Get the path to your modded CK3 definition.csv file. For example: `C:\\Users\\isabeau\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv`
+
+2. **Access the Plugin**:
+   
    - Run the CK3 ColorPicker Gimp Plugin. (You can find it in the menu bar (bar at the top) under `CK3`)
    - A window will appear, allowing you to search for provinces by name (You will see a list with all entries of definition.csv and can scroll trough it.).
 
-4. **Select a Province**:
+3. **Select a Province**:
    - Find the name of the province you want to work with and click it.
    - The plugin will retrieve the color defined for that province in your definition.csv and add to the gimp color tool foreground color.
    - If you dont know what i mean by that look at the screenshot:
 
-5. **Apply the Color**:
+4. **Apply the Color**:
    - Use the retrieved color in your GIMP color tool.
    - Draw the corresponding province directly on your provinces.png map.
 
