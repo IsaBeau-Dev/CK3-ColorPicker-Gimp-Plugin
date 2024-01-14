@@ -25,6 +25,7 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
    - Get the path to your modded CK3 definition.csv file. For example: `C:\\Users\\isabeau\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv`
    - Look for the line that specifies the `path` to your definition.csv file in the `.py`. It should be line **4**.
    - Update the path to match the location of your `definition.csv` on your system. `path = "PATH_TO_YOUR_MODDED_DEFINITON.CSV"`
+   - **YOU ONLY HAVE TO DO THIS STEP ONCE**(AS LONG AS YOU DONT WANT TO USE A DIFFERENT `DEFINITION.CSV FILE`)
 
 2. **Access the Plugin**:
    
