@@ -23,7 +23,7 @@ def python_fu_test(image, drawable):
     window.connect("delete_event", gtk.main_quit)
 
     # Maximize the window
-    window.set_default_size(300, 200)  # Width, Height
+    window.set_default_size(500, 400)  # Width, Height
     window.maximize()
     # # Set the default size of the window
     # window.set_default_size(300, 200)  # Width, Height
