@@ -46,9 +46,6 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
    - Draw the corresponding province directly on your provinces.png map.
 5. **Video Showing Usage**:
    - <video src='https://github.com/IsaBeau-Dev/CK3-ColorPicker-Gimp-Plugin/assets/90000605/10825501-460e-4309-a28c-720ae7676d1a' width=180/>
-   - https://github.com/IsaBeau-Dev/CK3-ColorPicker-Gimp-Plugin/assets/90000605/10825501-460e-4309-a28c-720ae7676d1a
-
-
 
 ## Contributing
 
