@@ -47,6 +47,10 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
 5. **Video Showing Usage**:
    - ![image](https://github.com/IsaBeau-Dev/CK3-ColorPicker-Gimp-Plugin/assets/90000605/37d5e03d-7600-49de-ade1-59714f020ed1)
 
+   - https://github.com/IsaBeau-Dev/CK3-ColorPicker-Gimp-Plugin/assets/90000605/10825501-460e-4309-a28c-720ae7676d1a
+
+
+
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have ideas for improvements, please open an issue or submit a pull request.
