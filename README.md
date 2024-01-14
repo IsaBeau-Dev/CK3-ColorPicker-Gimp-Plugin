@@ -45,7 +45,7 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
    - Use the retrieved color in your GIMP color tool.
    - Draw the corresponding province directly on your provinces.png map.
 5. **Video Showing Usage**:
-   - ![Watch the video]](https://clipchamp.com/watch/arkha3zhuFL)
+   - ![video]](https://clipchamp.com/watch/arkha3zhuFL)
 
 ## Contributing
 
