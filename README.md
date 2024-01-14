@@ -9,13 +9,7 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
    - Click on the green "Code" button and select "Download ZIP."
    - Extract the ZIP file to a location on your computer.
 
-2. **Install in GIMP**:
-   - Open GIMP.
-   - Go to `Edit > Preferences > Folders > Plug-Ins`.
-   - Add the folder containing the extracted plugin files to the list of plugin folders.
-   - Restart GIMP.
-
-3. **Place the Plugin File**:
+2. **Place the Plugin File**:
    - Locate the `.py` file within the plugin folder.
    - Move or copy this `.py` file to the appropriate GIMP plugins directory:
      - On Linux: `~/.config/GIMP/2.10/plug-ins/`
