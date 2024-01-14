@@ -10,7 +10,7 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
    - Extract the ZIP file to a location on your computer.
 
 2. **Place the Plugin File**:
-   - Locate the `.py` file within the plugin folder.
+   - Locate the `.py` [file](plugin_isabeau.py) within the plugin folder.
    - Move or copy this `.py` file to the appropriate GIMP plugins directory:
      - On Linux: `~/.config/GIMP/2.10/plug-ins/`
      - On Windows: `C:\Users\USERNAME\AppData\Roaming\GIMP\2.10\plug-ins\`
