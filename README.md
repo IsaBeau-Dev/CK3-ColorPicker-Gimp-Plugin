@@ -37,7 +37,7 @@ The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying
 3. **Select a Province**:
    - Find the name of the province you want to work with and click it.
    - The plugin will retrieve the color defined for that province in your definition.csv and add to the gimp color tool foreground color.
-   - If you dont know what i mean by that look at the screenshot( ![#9a009a](PURPLE)):
+   - If you dont know what i mean by that look at the screenshot( `rgb(9, 105, 218)` (PURPLE)):
    - ![image](https://github.com/IsaBeau-Dev/CK3-ColorPicker-Gimp-Plugin/assets/90000605/a22bb41f-7a41-4060-aab1-289ad30eb98d)
 
 4. **Apply the Color**:
