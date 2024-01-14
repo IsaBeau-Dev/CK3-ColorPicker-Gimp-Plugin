@@ -3,7 +3,6 @@ import gtk
 
 path = "C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv"
 def isabeau_ck_3_plugin():
-    #with open("C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv", "r") as f:
     with open(path, "r") as f:
         content = f.read().splitlines()
         f.close()
@@ -45,14 +44,8 @@ def isabeau_ck_3_plugin():
 
     gtk.main()
 
-    # # Using stdout see -> https://en.wikipedia.org/wiki/Standard_streams#Standard_output_.28stdout.29
-    # print "Hello World \nThis message does not show in the GUI."
-    # # (Unix Terminal Output) Will not work on Windows Based Systems.
-    # return
-
 
 def on_selection_changed(selection):
-    #with open("C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv", "r") as f:
     with open(path, "r") as f:
         content = f.read().splitlines()
         f.close()
