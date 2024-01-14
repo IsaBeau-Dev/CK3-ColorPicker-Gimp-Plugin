@@ -88,52 +88,10 @@ def on_selection_changed(selection):
 #     # menu = "<Toolbox>/Hello/")
 #     )
 
-#####new
-# register(
-#     #name
-#     "CK3 ColorPicker Plugin",
-#
-#     #blurb
-#     #"Saying Hello World",
-#     "This plugin looks up the colors in your definition.csv and opens a window where you can select a province based on name. The Plugin then pastes the color defined for that province in your color tool, so you can draw the according province directly in your provinces.png.",
-#
-#
-#     #help
-#     #"Saying Hello to the World",
-#     "This plugin looks up the colors in your definition.csv and opens a window where you can select a province based on name. The Plugin then pastes the color defined for that province in your color tool, so you can draw the according province directly in your provinces.png.",
-#
-#
-#     #author
-#     "IsaBeau-Dev <https://github.com/IsaBeau-Dev>",
-#
-#     #copyright
-#     "IsaBeau-Dev <https://github.com/IsaBeau-Dev>",
-#
-#     #date
-#     "2024",
-#
-#     #menupath
-#     "Hello World",
-#
-#     #imagetypes (use * for all, leave blank for none)
-#     "",
-#
-#     #params
-#     [],
-#
-#     #results
-#     [],
-#
-#     #function (to call)
-#     isabeau_ck_3_plugin,
-#
-#     #this can be included this way or the menu value can be directly prepended to the menupath
-#     menu = "<Toolbox>/Hello/")
-#
 
 register(
     #name
-    "Test",
+    "CK3ColorPickerPlugin",
 
     #blurb
     #"Saying Hello World",
@@ -152,7 +110,7 @@ register(
     "IsaBeau-Dev <https://github.com/IsaBeau-Dev>",
 
     #date
-    "2015",
+    "2024",
 
     #menupath
     "CK3 ColorPicker Plugin",
