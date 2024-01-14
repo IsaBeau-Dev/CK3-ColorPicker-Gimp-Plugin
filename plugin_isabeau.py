@@ -1,7 +1,7 @@
 from gimpfu import *
 import gtk
 
-path = "C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv"
+path = "C:\\Users\\isabeau\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv"
 def isabeau_ck_3_plugin():
     with open(path, "r") as f:
         content = f.read().splitlines()
