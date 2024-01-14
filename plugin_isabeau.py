@@ -1,4 +1,3 @@
-############WORKING
 from gimpfu import *
 import gtk
 
@@ -45,6 +44,11 @@ def isabeau_ck_3_plugin():
 
     gtk.main()
 
+    # # Using stdout see -> https://en.wikipedia.org/wiki/Standard_streams#Standard_output_.28stdout.29
+    # print "Hello World \nThis message does not show in the GUI."
+    # # (Unix Terminal Output) Will not work on Windows Based Systems.
+    # return
+
 
 def on_selection_changed(selection):
     with open("C:\\Users\\thore\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv", "r") as f:
@@ -68,38 +72,15 @@ def on_selection_changed(selection):
             index = names.index(color)
             gimp.set_foreground(gimpcolor.RGB(int(used_rgb_values[index][0]), int(used_rgb_values[index][1]), int(used_rgb_values[index][2])))
 
-###old
-# register(
-#     "ck3-gimp-plugin",
-#     "ck3-gimp-plugin",
-#     "This plugin looks up the colors in your definition.csv and opens a window where you can select a province based on name. The Plugin then pastes the color defined for that province in your color tool, so you can draw the according province directly in your provinces.png.",
-#     "IsaBeau-Dev",
-#     "IsaBeau-Dev",
-#     "2024",
-#     #old menupath
-#     "<Image>/Filters/Test/Test...",
-#     #menupath
-#     #"Hello CK3",
-#     "*",
-#     [],
-#     [],
-#     python_fu_test,
-#     # #this can be included this way or the menu value can be directly prepended to the menupath
-#     # menu = "<Toolbox>/Hello/")
-#     )
-
-
 register(
     #name
     "CK3ColorPickerPlugin",
 
     #blurb
-    #"Saying Hello World",
     "This plugin looks up the colors in your definition.csv and opens a window where you can select a province based on name. The Plugin then pastes the color defined for that province in your color tool, so you can draw the according province directly in your provinces.png.",
 
 
     #help
-    #"Saying Hello to the World",
     "This plugin looks up the colors in your definition.csv and opens a window where you can select a province based on name. The Plugin then pastes the color defined for that province in your color tool, so you can draw the according province directly in your provinces.png.",
 
 
@@ -131,65 +112,3 @@ register(
     menu = "<Toolbox>/CK3/")
 
 main()
-
-######Working HELLO WORLD
-# #!/usr/bin/env python
-#
-# import gtk
-# import tkinter
-# from gimpfu import *
-#
-# def helloWorldFn() :
-#     # Using gtk to display an info type message see -> http://www.gtk.org/api/2.6/gtk/GtkMessageDialog.html#GtkMessageType
-#     message = gtk.MessageDialog(type=gtk.MESSAGE_INFO, buttons=gtk.BUTTONS_OK)
-#     message.set_markup("Hello World \nThis Dialog Will Cause Unexpected Issues During Batch Procedures")
-#     message.run()
-#     message.destroy()
-#
-#     # Using GIMP's interal procedure database see -> http://docs.gimp.org/en/glossary.html#glossary-pdb
-#     pdb.gimp_message("Hello World, This Message Looks Like An Error And/Or Warning")
-#
-#     # Using stdout see -> https://en.wikipedia.org/wiki/Standard_streams#Standard_output_.28stdout.29
-#     print "Hello World \nThis message does not show in the GUI."
-#     # (Unix Terminal Output) Will not work on Windows Based Systems.
-#     return
-#
-# # see -> http://www.gimp.org/docs/python/
-# register(
-#     #name
-#     "helloWorldPlugin",
-#
-#     #blurb
-#     "Saying Hello World",
-#
-#     #help
-#     "Saying Hello to the World",
-#
-#     #author
-#     "William Crandell <william@crandell.ws>",
-#
-#     #copyright
-#     "William Crandell <william@crandell.ws>",
-#
-#     #date
-#     "2015",
-#
-#     #menupath
-#     "Hello World",
-#
-#     #imagetypes (use * for all, leave blank for none)
-#     "",
-#
-#     #params
-#     [],
-#
-#     #results
-#     [],
-#
-#     #function (to call)
-#     helloWorldFn,
-#
-#     #this can be included this way or the menu value can be directly prepended to the menupath
-#     menu = "<Toolbox>/Hello/")
-#
-# main()
