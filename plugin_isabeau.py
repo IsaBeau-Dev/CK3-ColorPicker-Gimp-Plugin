@@ -2,6 +2,11 @@ from gimpfu import *
 import gtk
 
 path = "C:\\Users\\isabeau\\Documents\\Paradox Interactive\\Crusader Kings III\\mod\\alagasia\\map_data\\definition.csv"
+
+#minimize the terminal popup window
+import ctypes
+ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 6)
+
 def isabeau_ck_3_plugin():
     with open(path, "r") as f:
         content = f.read().splitlines()
