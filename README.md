@@ -2,6 +2,8 @@
 
 The CK3 ColorPicker Gimp Plugin simplifies the process of selecting and applying colors to provinces in your CK3 (Crusader Kings III) map. If you're a modder or map creator, this plugin streamlines the color-picking workflow.
 
+>[!NOTE]
+> This project will not work for Gimp Version >= `3.0`. A plugin with more capabilities for Gimp Version >= `3.0` can be found here: https://github.com/CorentinvdBdO/map_filler
 ## Installation
 
 1. **Download the Plugin**:
